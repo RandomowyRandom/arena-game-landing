@@ -13,7 +13,7 @@ function MainPage() {
       </div>
       <div className="absolute right-16 top-2/3 z-10 w-1/2">
         <h1 className="top-1/2 right-0 text-right text-7xl font-bold text-gray-700">
-          Tanie kotki, {<br />}Miaałfejcyjna jakość!
+          Tanie kotki, {<br />}Miaałfakcyjna jakość!
         </h1>
       </div>
     </div>
