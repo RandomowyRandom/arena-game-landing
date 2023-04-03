@@ -2,8 +2,6 @@ import { useState } from 'react';
 import MainPage from './components/MainPage';
 import Navbar from './components/Navbar';
 
-// use state hook to change current page
-
 function App() {
   const [currentPage, setCurrentPage] = useState<JSX.Element>(
     <MainPage></MainPage>,
