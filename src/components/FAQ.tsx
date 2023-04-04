@@ -27,6 +27,12 @@ function FAQ() {
           Na każdego kota udzielamy dwa tygodnie gwarancji rozruchowej :)
         </p>
       </div>
+      <div className="absolute bottom-0 right-0 mr-6 mb-6 w-40 text-right text-xl text-gray-600">
+        <p className="text-3xl font-bold">Autorzy</p>
+        <hr className="my-2 ml-0 h-1 w-40 rounded border-0 bg-gray-500" />
+        <p>Dominik Konik</p>
+        <p>Dawid Pytel</p>
+      </div>
     </div>
   );
 }
