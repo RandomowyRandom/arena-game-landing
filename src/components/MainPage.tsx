@@ -8,7 +8,7 @@ import CatNames from './CatNames';
 
 function MainPage() {
   return (
-    <div className="h-screen w-screen">
+    <div className="h-screen w-screen animate-fadeInTopBottom">
       <img
         src={CatBackground}
         alt="cat background"

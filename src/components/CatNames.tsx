@@ -21,7 +21,7 @@ function CatNames(props: IProps) {
       <h3 className="mb-3 text-4xl font-bold text-gray-600">
         {props.names[index]}
       </h3>
-      <hr className=" m-auto h-1 rounded-xl border-none bg-gray-300" />
+      <hr className="m-auto h-1 w-3/4 rounded-xl border-none bg-gray-300" />
       <h4 className="text-3xl font-bold text-gray-600">
         {props.prices[index]}
       </h4>
