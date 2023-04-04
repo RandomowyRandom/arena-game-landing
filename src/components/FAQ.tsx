@@ -8,7 +8,7 @@ function FAQ() {
         <p className="text-5xl font-bold">
           <AnimatedText
             type="chars"
-            interval={0.05}
+            interval={0.01}
             duration={0.6}
             animation={{
               y: '100px',
@@ -21,7 +21,7 @@ function FAQ() {
         <p className="ml-6 mt-6 text-3xl">
           <AnimatedText
             type="chars"
-            interval={0.05}
+            interval={0.01}
             duration={0.6}
             animation={{
               y: '100px',
@@ -37,7 +37,7 @@ function FAQ() {
         <p className="text-5xl font-bold">
           <AnimatedText
             type="chars"
-            interval={0.05}
+            interval={0.01}
             duration={0.6}
             animation={{
               y: '100px',
@@ -50,7 +50,7 @@ function FAQ() {
         <p className="ml-6 mt-6 text-3xl">
           <AnimatedText
             type="chars"
-            interval={0.05}
+            interval={0.01}
             duration={0.6}
             animation={{
               y: '100px',
@@ -66,7 +66,7 @@ function FAQ() {
         <p className="text-5xl font-bold">
           <AnimatedText
             type="chars"
-            interval={0.05}
+            interval={0.01}
             duration={0.6}
             animation={{
               y: '100px',
@@ -79,7 +79,7 @@ function FAQ() {
         <p className="ml-6 mt-6 text-3xl">
           <AnimatedText
             type="chars"
-            interval={0.05}
+            interval={0.01}
             duration={0.6}
             animation={{
               y: '100px',
