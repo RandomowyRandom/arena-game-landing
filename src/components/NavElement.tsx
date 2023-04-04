@@ -6,7 +6,7 @@ interface IProps {
 function NavElement(props: IProps) {
   return (
     <span
-      className="cursor-pointer text-3xl font-bold text-gray-600 transition-colors hover:text-pink-300"
+      className="cursor-pointer select-none text-3xl font-bold text-gray-600 transition-colors hover:text-pink-300"
       onClick={() => props.onClick(props.subpage)}
     >
       {props.text}
