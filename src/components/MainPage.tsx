@@ -6,7 +6,11 @@ import Cat2 from '../assets/images/Cats/20230207_104524.jpg';
 import Cat3 from '../assets/images/Cats/20230329_225510.jpg';
 import CatNames from './CatNames';
 
-function MainPage() {
+interface IProps {
+  onSeeMoreClick: () => void;
+}
+
+function MainPage(props: IProps) {
   return (
     <div className="h-screen w-screen animate-fadeInTopBottom">
       <img
@@ -21,7 +25,10 @@ function MainPage() {
             names={['Ryszard', 'Stefan', 'Elżbieta']}
             prices={['5,00zł', '10,00zł', '15,00zł']}
           ></CatNames>
-          <button className="mt-10 rounded-2xl bg-pink-300 py-3 px-6 text-4xl font-bold text-white">
+          <button
+            onClick={() => props.onSeeMoreClick()}
+            className="mt-10 rounded-2xl bg-pink-300 py-3 px-6 text-4xl font-bold text-white"
+          >
             Zobacz więcej!
           </button>
         </div>
