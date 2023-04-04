@@ -6,7 +6,6 @@ function App() {
   const [currentPage, setCurrentPage] = useState<JSX.Element>(
     <MainPage></MainPage>,
   );
-
   return (
     <div className="text-center selection:bg-pink-100">
       <Navbar onSubpageChange={(page) => setCurrentPage(page)}></Navbar>
