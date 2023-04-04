@@ -1,6 +1,7 @@
 import Wave from '../assets/images/wave.png';
 import Logo from '../assets/images/logo.webp';
 import NavElement from './NavElement';
+import FAQ from '../components/FAQ';
 
 interface IProps {
   onSubpageChange: (subpage: JSX.Element) => void;
@@ -30,7 +31,7 @@ function Navbar(props: IProps) {
           onClick={(page) => props.onSubpageChange(page)}
         ></NavElement>
         <NavElement
-          subpage={<h1 className="absolute z-50">FAQ</h1>}
+          subpage={<FAQ></FAQ>}
           text="FAQ"
           onClick={(page) => props.onSubpageChange(page)}
         ></NavElement>
